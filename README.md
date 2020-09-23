@@ -27,3 +27,20 @@ show collections
 ```
 db.collection_name.drop()
 ```
+## Insert Field
+**Insert one:**
+```
+db.collection_name.insertOne({'_id':1,'name':'Sifat','class':12})
+```
+**Insert Many:**
+```
+db.collection_name.insertMany([{id:1,name:'Sifat',class:12},{id:2,name:'Nas',class:11}])
+```
+## Collection Read Operation
+```
+db.collection_name.find()
+```
+## Insert into Collection
+```
+db.collection_name.insert({_id:4,name:"Sifat",class:12})
+```
